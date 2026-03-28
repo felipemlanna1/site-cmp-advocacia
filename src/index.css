@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --navy:#1A2744;--navy-l:#243358;--navy-glow:rgba(26,39,68,0.15);
+  --amber:#D4A84B;--amber-d:#B8912E;--amber-glow:rgba(212,168,75,0.12);
+  --bg:#F8F9FB;--bg2:#EFF1F5;
+  --dark:#0D1520;--white:#FFFFFF;--gray:#6B7A8D;--text:#4A5568;
+  --font-head:'Libre Baskerville',serif;--font-body:'Inter',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--bg);color:var(--text);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+h1,h2,h3{color:var(--navy);font-family:var(--font-head)}
+a{text-decoration:none;color:inherit}
+.sp{padding:100px 24px}
+.mx{max-width:1080px;margin:0 auto}
+::selection{background:var(--navy);color:var(--white)}
